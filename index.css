@@ -17,7 +17,7 @@ body {
     padding: 20px;
 }
 
-h2 {
+.relative-position {
     display: flex;
     position: relative;
     text-align: start;
@@ -37,10 +37,6 @@ h2 {
     font-weight: 100;
 }
 
-.grid-container-1 {
-    display: grid;
-    justify-content:
-}
 
 .icon-arrow {
     height: 20px;
@@ -61,27 +57,45 @@ h2 {
 .video-section {
     border-top: 0;
     border-bottom: 0.2rem solid gray;
-    border-spacing: 20em;
+    border- border-spacing: 20em;
     padding: 20px;
 }
 
 .orange-fruit {
-    height: 600px;
+    height: 500px;
     width: 400px;
-    padding: 30px;
+    margin-left: -100;
+    padding: 0;
+}
+
+.sub-section-3 {
+    margin-left: -100px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px;
     padding: 20px;
     justify-content: space-around;
 }
 
 .word-to-front {
-    z-index: 12;
+    z-index: 98;
     position: absolute;
     color: white;
-    margin-top: 85px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.grid-container-2 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+}
+
+ul {
+    font-weight: 600;
+    list-style: none;
 }
