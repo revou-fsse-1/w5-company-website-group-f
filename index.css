@@ -3,7 +3,7 @@ body {
     padding: 30px;
 }
 
-.flex-container {
+.section-2-container {
     display: flex;
     justify-content: space-around;
     border: 20px black;
@@ -17,7 +17,7 @@ body {
     padding: 20px;
 }
 
-h2 {
+.middle-section h2 {
     display: flex;
     position: relative;
     text-align: start;
@@ -37,14 +37,12 @@ h2 {
     font-weight: 100;
 }
 
-.grid-container-1 {
-    display: grid;
-    justify-content:
-}
-
 .icon-arrow {
     height: 20px;
     width: 20px;
+    /* position: absolute;
+    margin-top: -50px;
+    margin-left: 230px; */
 }
 
 .article-description {
@@ -52,36 +50,69 @@ h2 {
     margin: 20px;
 }
 
-.icon-arrow {
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 230px;
-}
-
-.video-section {
+/* .video-section {
     border-top: 0;
+    border-bottom: 0.2rem solid gray;
+    border-spacing: 20em;
+    padding: 20px;
+} */
+
+.video-section-1 {
+    display: flex;
+    align-items: self-end;
     border-bottom: 0.2rem solid gray;
     border-spacing: 20em;
     padding: 20px;
 }
 
+.video-section-2 {
+    display: flex;
+    align-items: self-end;
+    border-bottom: 0.2rem solid gray;
+    border-spacing: 20em;
+    padding: 20px;
+}
+
+.video-section-3 {
+    display: flex;
+    align-items: self-end;
+    border-bottom: 0.2rem solid gray;
+    border-spacing: 20em;
+    padding: 20px;
+}
+
+.strawberry-fruit {
+    height: 230px;
+    width: 230px;
+    padding: 0;
+}
+
 .orange-fruit {
     height: 600px;
     width: 400px;
-    padding: 30px;
+    padding: 0;
+
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px;
+.fruit-container {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 4vw); */
     padding: 20px;
+    margin: 50px;
     justify-content: space-around;
+    /* height: 70vh; */
 }
 
 .word-to-front {
-    z-index: 12;
+    z-index: 98;
     position: absolute;
     color: white;
     margin-top: 85px;
+    width: 1vw;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
 }
