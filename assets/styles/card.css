@@ -87,10 +87,13 @@
 .fruit-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 750px);
+    grid-template-rows: repeat(3, 80vh);
     justify-items: center;
 }
 
+.latest-word {
+    text-align: center;
+}
 
 
 .word-to-front {
@@ -135,7 +138,7 @@
     .footer-container {
         display: flex;
         justify-content: space-around;
-        background-color: #D6E6F2;
+        background-color: #77ffff;
         margin: 0;
         width: 100%;
     }
