@@ -109,9 +109,7 @@ small,
   aspect-ratio: 1;
   border-radius: 50%;
 }
-.identity
-
-.testi-text p {
+.identity .testi-text p {
   margin-top: 0rem;
 }
 
@@ -119,7 +117,6 @@ small,
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
- 
 }
 .name {
   margin-bottom: 0;
@@ -133,6 +130,9 @@ small,
       "box4 box4";
   }
 
+  .testi-container {
+    padding: 2rem 0 2rem 0;
+  }
 }
 @media screen and (max-width: 641px) {
   .testimonial-card {
@@ -145,10 +145,10 @@ small,
 
   .testimonial-card {
     width: 80%;
-
+  }
+  .testi-container {
+    padding: 2rem 0 2rem 0;
   }
 }
-
-
 
 /* !testi end */
