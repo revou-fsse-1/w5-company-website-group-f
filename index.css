@@ -5,10 +5,10 @@ body {
 
 .image-icon {
     border-radius: 10%;
-    width: 15em;
     border: 0.1875rem solid black;
     border-spacing: 20rem;
     padding: 20px;
+    width: 15em;
 }
 
 .middle-section h2 {
@@ -35,6 +35,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .article-container>div:nth-child(1) {
@@ -76,12 +77,12 @@ body {
     width: 20vw
 }
 
-.sub-sect-3 {
+.sub-sect-2 {
     margin: revert;
 }
 
 .strawberry-fruit {
-    height: 17vw;
+    height: 20%;
     padding: 0;
 }
 
@@ -95,9 +96,9 @@ body {
 .fruit-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 520px);
-    width: 80em;
-    height: 130vh;
+    grid-template-rows: repeat(3, 750px);
+    width: 80%;
+    justify-items: center;
 }
 
 
@@ -112,16 +113,21 @@ body {
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #D6E6F2;
 }
 
+.footer-3 {
+    grid-row: 2;
+    grid-column: 2;
 
+}
 
 @media screen and (min-width: 768px) {
     .main-article-container {
         display: grid;
-        width: 80em;
+        width: 100%;
     }
 
     .article-container {
@@ -141,6 +147,6 @@ body {
         justify-content: space-around;
         background-color: #D6E6F2;
         margin: 0;
-        width: 85em;
+        width: 100%;
     }
 }
