@@ -109,14 +109,7 @@ small,
   aspect-ratio: 1;
   border-radius: 50%;
 }
-
-.testimonial .position {
-  opacity: 0.5;
-}
-
-.identity .position {
-  margin-top: 0;
-}
+.identity
 
 .testi-text p {
   margin-top: 0rem;
@@ -125,6 +118,8 @@ small,
 .identity h2 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  font-weight: bold;
+ 
 }
 .name {
   margin-bottom: 0;
