@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*! type-scale start */
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.383rem;
+}
+
+h2 {
+  font-size: 1.296rem;
+}
+
+h3 {
+  font-size: 1.215rem;
+}
+
+h4 {
+  font-size: 1.138rem;
+}
+
+h5 {
+  font-size: 1.067rem;
+}
+
+small,
+.text_small {
+  font-size: 0.937rem;
+}
+
+/*! type-scale end */
+
+/* !testi start */
+.testi-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffc93c;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.testimonial:nth-child(1) {
+  grid-area: box1;
+}
+.testimonial:nth-child(2) {
+  grid-area: box2;
+}
+.testimonial:nth-child(3) {
+  grid-area: box3;
+}
+.testimonial:nth-child(4) {
+  grid-area: box4;
+}
+
+.testimonial-card {
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "box1 box1 box2"
+    "box3 box4 box4 ";
+  width: min(90%, 70rem);
+  margin-inline: auto;
+}
+
+.testimonial img {
+  width: 1.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.identity
+
+.testi-text p {
+  margin-top: 0rem;
+}
+
+.identity h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+ 
+}
+.name {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 961px) {
+  .testimonial-card {
+    grid-template-areas:
+      "box1 box1"
+      "box2 box3"
+      "box4 box4";
+  }
+
+}
+@media screen and (max-width: 641px) {
+  .testimonial-card {
+    grid-template-areas:
+      "box1 box1"
+      "box2 box2"
+      "box3 box3"
+      "box4 box4";
+  }
+
+  .testimonial-card {
+    width: 80%;
+
+  }
+}
+
+
+
+/* !testi end */

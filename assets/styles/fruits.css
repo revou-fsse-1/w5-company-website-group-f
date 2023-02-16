@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*! type-scale start */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.383rem;
+}
+
+h2 {
+  font-size: 1.296rem;
+}
+
+h3 {
+  font-size: 1.215rem;
+}
+
+h4 {
+  font-size: 1.138rem;
+}
+
+h5 {
+  font-size: 1.067rem;
+}
+.products-container {
+  min-height: 50vh;
+}
+.two-images {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.two-images .image-left,
+.two-images .image-right {
+  align-items: end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  height: 600px;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.two-images .image-left h2,
+.two-images .image-right h2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 23rem;
+  margin-bottom: 0;
+}
+
+.two-images .image-right p,
+.two-images .image-left p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 25px;
+}
+
+.two-images .image-left {
+  background-image: url("/assets/images/cherri.png");
+}
+
+.two-images .image-right {
+  background-image: url("/assets/images/orange.png");
+}
+
+@media screen and (min-width: 1024px) {
+  /* Two Images */
+  .two-images {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .two-images .image-right p,
+  .two-images .image-left p {
+    place-items: center;
+  }
+
+
+}
+
+
