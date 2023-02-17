@@ -80,6 +80,16 @@ small,
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.testimonial-card {
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "box1 box1 box2"
+    "box3 box4 box4 ";
+  width: min(90%, 70rem);
+  margin-inline: auto;
+}
 .testimonial:nth-child(1) {
   grid-area: box1;
 }
@@ -92,18 +102,6 @@ small,
 .testimonial:nth-child(4) {
   grid-area: box4;
 }
-
-.testimonial-card {
-  display: grid;
-  gap: 1.5rem;
-  grid-auto-columns: 1fr;
-  grid-template-areas:
-    "box1 box1 box2"
-    "box3 box4 box4 ";
-  width: min(90%, 70rem);
-  margin-inline: auto;
-}
-
 .testimonial img {
   width: 1.75rem;
   aspect-ratio: 1;
