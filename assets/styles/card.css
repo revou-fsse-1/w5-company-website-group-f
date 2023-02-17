@@ -87,7 +87,7 @@
 .fruit-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 80vh);
+    grid-template-rows: repeat(3, 120vh);
     justify-items: center;
 }
 
