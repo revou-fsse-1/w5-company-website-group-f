@@ -33,7 +33,7 @@ Welcome to Daily Juice, your one-stop shop for fresh, healthy, and delicious jui
 
 ### Links
 
-- Live Site URL: [Daily Juice](https://dailyjuices.okky.me/)
+- Live Site URL: [Daily Juice](https://dailyjuices.okky.me/) [Boy](https://dailyjuice.yobnaolo.site/)
 - Alternative URL: [Netlify](https://dailyjuices.netlify.app/)
 - Design: [Figma](https://www.figma.com/file/G7EPmG2uaHRs06SaT4mlVN/Daily-juice?node-id=1%3A15&t=qZF8Sbw0cC2uj6eo-1)
 
